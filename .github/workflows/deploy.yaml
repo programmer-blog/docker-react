@@ -1,9 +1,8 @@
-name: default
-
+name: Deploy Frontend
 on:
   push:
     branches:
-    - master
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
